@@ -1,0 +1,16 @@
+.content__container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar__container {
+  background-color: cadetblue;
+  width: 30%;
+  height: 100vh;
+}
+
+.wrapper__container {
+  background-color: burlywood;
+  width: 70%;
+  height: 100vh;
+}

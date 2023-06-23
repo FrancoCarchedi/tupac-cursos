@@ -1,0 +1,6 @@
+.toolbar__container {
+  display: flex;
+  background-color: #895612;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
