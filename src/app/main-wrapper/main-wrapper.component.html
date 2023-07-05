@@ -1,2 +1,5 @@
+<h1>Listado de alumnos</h1>
 
-  <p>main-wrapper works!</p>
+<ul [ngStyle]="{ 'padding': '32px 32px 32px 32px' }">
+  <li *ngFor="let alumno of alumnos">{{ alumno | uppercase}}</li>
+</ul>
